@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="265311A4-453F-38DC-0F37-900F9F6D1A70" name="Atributos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="265311A4-453F-38DC-0F37-900F9F6D1A70" name="Atributo">
 <createdBy>jcalc</createdBy>
 <createdTime>2025-03-25 13:11:44 UTC</createdTime>
 <generatorID>E7613315-9761-F9A9-58BB-29A34137F3FC</generatorID>
@@ -56,6 +56,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Cuenta_ID" id="04D2E74B-F12A-7E97-44BE-82C97BB93A91">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-01 12:15:36 UTC</createdTime>
+<generatorID>60FC21DD-F45F-15A5-0B9C-75E148920603</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBABD0C3-A2A3-BA8B-A802-273F3B1DAAB4" referredColumn="5AC406CE-4459-B365-CC00-CA6D2D93196A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BD956528-636E-F306-89DF-4A2EF4094672" name="Atributos_PK">
@@ -68,6 +83,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="64B5A283-EBB3-B951-6D73-7BF2AA8C856D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03482616-3E03-480E-026E-4A10DED8A313" name="Atributo_Cuenta_FK">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-01 12:15:36 UTC</createdTime>
+<generatorID>7CEAFF98-5151-BCF5-F47B-17F8323F26A8</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D2E74B-F12A-7E97-44BE-82C97BB93A91"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

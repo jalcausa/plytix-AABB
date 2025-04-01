@@ -69,7 +69,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cuenta_ID1" id="1EB09556-966F-2849-779B-6BA2AFFCA5C7">
+<Column name="Cuenta_ID2" id="1EB09556-966F-2849-779B-6BA2AFFCA5C7">
 <createdBy>jcalc</createdBy>
 <createdTime>2025-03-25 13:11:44 UTC</createdTime>
 <generatorID>A62E8E9A-11B6-8845-511D-48EDC144FA72</generatorID>
@@ -96,6 +96,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38D8C695-6595-CC63-219E-EFDC8FC7A585" referredColumn="5AC406CE-4459-B365-CC00-CA6D2D93196A"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -131,6 +134,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1EB09556-966F-2849-779B-6BA2AFFCA5C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F29E42-BD9A-F1C3-FC52-8E9E731263BA" name="Usuario_Cuenta_FKv2">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-01 12:15:36 UTC</createdTime>
+<generatorID>7EB95D0D-A0B5-664F-8BD5-57ED8918980A</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BC45968-A2D6-F244-11F0-AA4BE31005DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

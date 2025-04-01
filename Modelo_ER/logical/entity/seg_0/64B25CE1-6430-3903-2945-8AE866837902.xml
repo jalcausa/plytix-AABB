@@ -40,7 +40,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="48BB9A7A-4093-D99C-5D3C-8BB5B8626894">
+<Attribute name="CuentaId" id="48BB9A7A-4093-D99C-5D3C-8BB5B8626894">
 <createdBy>jcalc</createdBy>
 <createdTime>2025-03-31 08:53:32 UTC</createdTime>
 <generatorID>BB005B38-71F8-D12D-8C49-DF073B13CC00</generatorID>

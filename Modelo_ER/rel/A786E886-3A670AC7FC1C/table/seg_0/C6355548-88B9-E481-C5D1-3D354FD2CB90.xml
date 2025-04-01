@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6355548-88B9-E481-C5D1-3D354FD2CB90" name="Activos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6355548-88B9-E481-C5D1-3D354FD2CB90" name="Activo">
 <createdBy>jcalc</createdBy>
 <createdTime>2025-03-25 13:11:44 UTC</createdTime>
 <generatorID>5FAB358B-F5A5-60F3-89BD-ACDD8132F8AA</generatorID>

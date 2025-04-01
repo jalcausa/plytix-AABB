@@ -78,6 +78,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F6C23D7-443B-8884-25DF-AEDB0965C9DF" referredColumn="6D636379-83F9-D2C3-37C5-F4426872A2C8"/>
+</associations>
 </Column>
 <Column name="Plan_ID" id="E93784AE-D67A-FC72-D36E-35152E9A2CBA">
 <createdBy>jcalc</createdBy>
@@ -128,6 +131,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E93784AE-D67A-FC72-D36E-35152E9A2CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD001CE0-09FE-80EF-DB78-95D29880DCC2" name="Cuenta_Usuario_FK">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-01 12:15:36 UTC</createdTime>
+<generatorID>7EB95D0D-A0B5-664F-8BD5-57ED8918980A</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DD0DB6-2F78-AF48-3C3C-4535B9E772B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

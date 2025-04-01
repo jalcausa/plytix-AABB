@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="E2D2ADB4-5479-8224-82E4-9B7B4EFF453D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Activos_CatActivos" directorySegmentName="seg_0" id="E2D2ADB4-5479-8224-82E4-9B7B4EFF453D">
 <createdBy>jcalc</createdBy>
 <createdTime>2025-02-24 11:07:33 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
