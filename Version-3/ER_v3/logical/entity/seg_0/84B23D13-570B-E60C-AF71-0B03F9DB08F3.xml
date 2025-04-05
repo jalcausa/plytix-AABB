@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84B23D13-570B-E60C-AF71-0B03F9DB08F3" name="plan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84B23D13-570B-E60C-AF71-0B03F9DB08F3" name="Plan">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:18 UTC</createdTime>
 <generatorID>E6D6C364-EEC4-B171-AEAE-2902C778211C</generatorID>
@@ -40,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Productos" id="1C5D1528-6627-1A1D-BB85-D6314687FEFC">
 <createdBy>Usuario</createdBy>

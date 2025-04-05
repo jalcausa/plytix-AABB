@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="051029DF-7ACB-7B4E-7AC8-A438810849A8" name="cuenta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="051029DF-7ACB-7B4E-7AC8-A438810849A8" name="Cuenta">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -9,73 +9,79 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="A9157F3C-9140-0F9B-6099-CBDB4E94E5EA">
+<Column name="Id" id="A9157F3C-9140-0F9B-6099-CBDB4E94E5EA">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>FD2225B4-8D63-4858-F2C6-CD53C8F882EF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="85C676A7-4BC6-C6D8-9BB1-D82FC54DD6BC">
+<Column name="Nombre" id="85C676A7-4BC6-C6D8-9BB1-D82FC54DD6BC">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>D2AEABEA-4404-4A2A-F134-390BFCFA315F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="direccionfiscal" id="CA82513B-005B-F932-F974-D406F5C4640C">
+<Column name="DireccionFiscal" id="CA82513B-005B-F932-F974-D406F5C4640C">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>A8C4F456-5A77-B8BA-284E-D369EFE83D86</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nif" id="C16C0D24-B286-0958-7DB5-E8A2D4EC35B3">
+<Column name="NIF" id="C16C0D24-B286-0958-7DB5-E8A2D4EC35B3">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>7EE97BB4-5D5E-B6DE-3FCD-FF9A11B37408</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C59763E7-A27C-736D-20C4-F6345B3F74CF</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fechaalta" id="E016A5E5-A30A-515C-2BA8-25852F01AFE6">
+<Column name="FechaAlta" id="E016A5E5-A30A-515C-2BA8-25852F01AFE6">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>0DA00961-DDF8-BCF5-1180-465484959B1B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>4C837798-8403-6D02-4692-B03904B98441</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="usuario_id" id="F4D87150-A46A-03F5-EFB7-65E23E8FE793">
+<Column name="usuario_Id" id="F4D87150-A46A-03F5-EFB7-65E23E8FE793">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>29326328-A013-2B6F-7D09-465CA433693C</importedID>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
@@ -85,7 +91,7 @@
 <colAssociation fkAssociation="CF35EA95-D0E3-A50E-5B1F-24E2DCDFC826" referredColumn="2E7B445E-786E-8553-BBB3-3C35FCAF2C75"/>
 </associations>
 </Column>
-<Column name="plan_id" id="ED2E9030-9E6E-4707-3357-D67AA26DA73F">
+<Column name="plan_Id" id="ED2E9030-9E6E-4707-3357-D67AA26DA73F">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -102,7 +108,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F2586E4B-5DEB-A84E-6A44-A2756BFA1785" name="cuenta_pk">
+<ind_PK_UK id="F2586E4B-5DEB-A84E-6A44-A2756BFA1785" name="Cuenta_PK">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -127,7 +133,7 @@
 <colUsage columnID="F4D87150-A46A-03F5-EFB7-65E23E8FE793"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="76FB175B-C446-3C8C-348A-73D0B036C61B" name="cuenta_plan_fk">
+<ind_PK_UK id="76FB175B-C446-3C8C-348A-73D0B036C61B" name="Cuenta_plan_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
@@ -137,7 +143,7 @@
 <colUsage columnID="ED2E9030-9E6E-4707-3357-D67AA26DA73F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E39651B7-7EF1-07A3-0F37-056213898157" name="cuenta_usuario_fk">
+<ind_PK_UK id="E39651B7-7EF1-07A3-0F37-056213898157" name="Cuenta_usuario_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>

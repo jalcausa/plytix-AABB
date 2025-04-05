@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DF2A54A-F2BA-AAAA-A803-E49D2DC9A322" name="atributo_producto">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DF2A54A-F2BA-AAAA-A803-E49D2DC9A322" name="AtributoProducto">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -9,34 +9,35 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="valor" id="A4D38396-E1DB-B0AD-C114-CF330BCEBFCF">
+<Column name="Valor" id="A4D38396-E1DB-B0AD-C114-CF330BCEBFCF">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>7F46F2AF-045F-CB70-2EA2-6124A53E29CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="producto_gtin" id="F87041A0-1633-190E-218B-7E6F5BEF5575">
+<Column name="Producto_GTIN" id="F87041A0-1633-190E-218B-7E6F5BEF5575">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>E799A0C2-BC6C-A035-06BF-8B409AB95DC1</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>956BFE00-BF58-69B1-8CC6-AE9D833D81AB</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E6823A89-6E42-4ABE-0129-D9B858F58396" referredColumn="FEA17BA3-8C45-2157-33F3-1714D8CCFB64"/>
 </associations>
 </Column>
-<Column name="atributos_id" id="AD6BBAE7-C6E3-3E96-2764-0EC8965A5A64">
+<Column name="Atributo_Id" id="AD6BBAE7-C6E3-3E96-2764-0EC8965A5A64">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -51,7 +52,7 @@
 <colAssociation fkAssociation="0A979075-24AD-4AF9-058A-9B5F47FFC3AB" referredColumn="B70C42FA-8C96-A183-5863-EF64CC57DE4B"/>
 </associations>
 </Column>
-<Column name="producto_cuenta_id" id="FF241ABC-669C-BC3B-8AAD-369BEFE2C35A">
+<Column name="Producto_cuenta_id" id="FF241ABC-669C-BC3B-8AAD-369BEFE2C35A">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -66,9 +67,25 @@
 <colAssociation fkAssociation="E6823A89-6E42-4ABE-0129-D9B858F58396" referredColumn="8966ABA7-ECDB-940B-1F50-D41F9B084BA8"/>
 </associations>
 </Column>
+<Column name="Atributo_Cuenta_Id" id="824E6916-BFE2-7B0D-6532-C5DDF2DFF18C">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-05 09:12:38 UTC</createdTime>
+<generatorID>721B4BA8-F7FB-4393-E241-79C3C020E435</generatorID>
+<ownerDesignName>ER_v3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A979075-24AD-4AF9-058A-9B5F47FFC3AB" referredColumn="ACBD55F1-42F7-6F9C-A5E0-8DAD1B7C5D6E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D7E22F0D-49C9-EE56-B104-5BADE66A1B45" name="atributo_producto_pk">
+<ind_PK_UK id="D7E22F0D-49C9-EE56-B104-5BADE66A1B45" name="AtributoProducto_PK">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -81,9 +98,10 @@
 <colUsage columnID="F87041A0-1633-190E-218B-7E6F5BEF5575"/>
 <colUsage columnID="FF241ABC-669C-BC3B-8AAD-369BEFE2C35A"/>
 <colUsage columnID="AD6BBAE7-C6E3-3E96-2764-0EC8965A5A64"/>
+<colUsage columnID="824E6916-BFE2-7B0D-6532-C5DDF2DFF18C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8628BA68-A34D-AB29-4126-52F7D8597B3A" name="atributo_producto_atributos_fk">
+<ind_PK_UK id="8628BA68-A34D-AB29-4126-52F7D8597B3A" name="AtributoProducto_Atributo_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
@@ -91,9 +109,10 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AD6BBAE7-C6E3-3E96-2764-0EC8965A5A64"/>
+<colUsage columnID="824E6916-BFE2-7B0D-6532-C5DDF2DFF18C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="22882505-8CDF-6195-A6B4-59A7F078E291" name="atributo_producto_producto_fk">
+<ind_PK_UK id="22882505-8CDF-6195-A6B4-59A7F078E291" name="AtributoProducto_Producto_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8563AC8C-372B-D738-B5F6-54BEA844450F" name="atributos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8563AC8C-372B-D738-B5F6-54BEA844450F" name="Atributo">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -9,58 +9,78 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="B70C42FA-8C96-A183-5863-EF64CC57DE4B">
+<Column name="Id" id="B70C42FA-8C96-A183-5863-EF64CC57DE4B">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>D7B83669-5557-1412-0A4C-6403E7FB0105</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="0C6128F9-418B-7167-BFC0-453C4E3B9C27">
+<Column name="Nombre" id="0C6128F9-418B-7167-BFC0-453C4E3B9C27">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>F507C7DA-74E5-F7B1-C9A0-32D089FF93D3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo" id="C7F2E4D7-E5A3-9A90-F4CB-252B7278514E">
+<Column name="Tipo" id="C7F2E4D7-E5A3-9A90-F4CB-252B7278514E">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>EC5CCB4D-D46F-7C04-8155-F26A323D6609</importedID>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="creado" id="B5FDDF3F-18FB-C974-D8A4-FC98D08B20E5">
+<Column name="Creado" id="B5FDDF3F-18FB-C974-D8A4-FC98D08B20E5">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>34F17835-E56E-BE38-2424-C738B2DAFC1A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <domain>4C837798-8403-6D02-4692-B03904B98441</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Cuenta_Id" id="ACBD55F1-42F7-6F9C-A5E0-8DAD1B7C5D6E">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-05 09:12:38 UTC</createdTime>
+<generatorID>86AFCE59-A566-E664-FD35-E9EC7B5C75FB</generatorID>
+<ownerDesignName>ER_v3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92C762DD-A9D1-D2E7-8E74-9E56E944B161" referredColumn="A9157F3C-9140-0F9B-6099-CBDB4E94E5EA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="095C2F30-771A-72AE-FB98-FF229BE022FD" name="atributos_pk">
+<ind_PK_UK id="095C2F30-771A-72AE-FB98-FF229BE022FD" name="Atributo_PK">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -71,6 +91,18 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B70C42FA-8C96-A183-5863-EF64CC57DE4B"/>
+<colUsage columnID="ACBD55F1-42F7-6F9C-A5E0-8DAD1B7C5D6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2B0E77E-CFD5-F774-5136-61D324A769F4" name="Atributo_Cuenta_FK">
+<createdBy>jcalc</createdBy>
+<createdTime>2025-04-05 09:12:38 UTC</createdTime>
+<generatorID>09283EFC-1C7C-BC5D-6398-5201CE2FBB3C</generatorID>
+<ownerDesignName>ER_v3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACBD55F1-42F7-6F9C-A5E0-8DAD1B7C5D6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

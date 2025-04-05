@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2CF5323-F7B0-4FD6-7943-CAFCA8FBD38C" name="activos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2CF5323-F7B0-4FD6-7943-CAFCA8FBD38C" name="Activo">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -9,12 +9,13 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="4EDB7FAE-BDC3-99A7-5E50-48C011B70C1F">
+<Column name="Id" id="4EDB7FAE-BDC3-99A7-5E50-48C011B70C1F">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>BF9D4F58-B4A7-EF06-FDF5-55F4E4955261</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
@@ -27,18 +28,20 @@
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>8D9EE398-D4BE-AB7F-721E-7C6B526698E9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tamaÃ±o" id="47E8ABBB-8246-2E2E-412F-FDB66062B488">
+<Column name="Tamanio" id="47E8ABBB-8246-2E2E-412F-FDB66062B488">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>BE6F7C36-86D3-4728-2CD9-417358A287FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
@@ -52,31 +55,34 @@
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>561D069B-772C-EC14-AFC1-75D50C359DEB</importedID>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>DB931ED2-0477-9B9C-C659-81F6FCDA38F4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="url" id="CF46F31F-A305-5B91-1569-52E19645A0C3">
+<Column name="URL" id="CF46F31F-A305-5B91-1569-52E19645A0C3">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>148686F6-506F-22DA-6FE7-0C0CAEC50EE7</importedID>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>C6B27EF9-B19B-4DC3-0AB4-93A6544B1702</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cuenta_id" id="8412CC2A-5FB7-8622-BFFF-4551E337B03D">
+<Column name="Cuenta_Id" id="8412CC2A-5FB7-8622-BFFF-4551E337B03D">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>2BBC2DD1-2F99-B15F-A741-2A01262DDFCE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
@@ -88,7 +94,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4DF0661A-300B-2266-1ECA-6B47A71AC45B" name="activos_pk">
+<ind_PK_UK id="4DF0661A-300B-2266-1ECA-6B47A71AC45B" name="Activo_PK">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -102,7 +108,7 @@
 <colUsage columnID="8412CC2A-5FB7-8622-BFFF-4551E337B03D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="65F741B9-EB28-1718-D05B-4C3CDF5B24A2" name="activos_cuenta_fk">
+<ind_PK_UK id="65F741B9-EB28-1718-D05B-4C3CDF5B24A2" name="Activo_Cuenta_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>

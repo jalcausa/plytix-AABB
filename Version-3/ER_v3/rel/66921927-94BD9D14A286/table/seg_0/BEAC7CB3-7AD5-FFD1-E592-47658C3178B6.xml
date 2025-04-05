@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEAC7CB3-7AD5-FFD1-E592-47658C3178B6" name="relation_16">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEAC7CB3-7AD5-FFD1-E592-47658C3178B6" name="Activo-CategoriaActivo">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -9,12 +9,13 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="activos_id" id="134120FF-3FE5-99E6-603E-60E5BBA90035">
+<Column name="Activo_Id" id="134120FF-3FE5-99E6-603E-60E5BBA90035">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
 <importedID>22B15ABD-48B2-3392-C00B-5CC8934755DB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A247AEC6-A7B9-BDB9-845C-FE6D53EF236C</domain>
@@ -24,7 +25,7 @@
 <colAssociation fkAssociation="B4145DEC-772E-E64D-B2E5-DE7F679BB291" referredColumn="4EDB7FAE-BDC3-99A7-5E50-48C011B70C1F"/>
 </associations>
 </Column>
-<Column name="activos_cuenta_id" id="08688FFA-DBBE-0DE5-DA72-1BF406F8B4AB">
+<Column name="Activo_cuenta_id" id="08688FFA-DBBE-0DE5-DA72-1BF406F8B4AB">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -39,7 +40,7 @@
 <colAssociation fkAssociation="B4145DEC-772E-E64D-B2E5-DE7F679BB291" referredColumn="8412CC2A-5FB7-8622-BFFF-4551E337B03D"/>
 </associations>
 </Column>
-<Column name="cat_act_id" id="B33A7E93-C951-E5EC-C922-3E32C0441A21">
+<Column name="CategoriaActivo_Id" id="B33A7E93-C951-E5EC-C922-3E32C0441A21">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -54,7 +55,7 @@
 <colAssociation fkAssociation="7B9C24BA-28A3-64B5-8E2F-B86FCE8D4721" referredColumn="1A0DC5F4-B679-D5BE-F167-81B6EC53D45C"/>
 </associations>
 </Column>
-<Column name="cat_act_cuenta_id" id="3C97F993-DF67-DD3E-73AB-6046D1191490">
+<Column name="CategoriaActivo_cuenta_id" id="3C97F993-DF67-DD3E-73AB-6046D1191490">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -71,7 +72,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6FD16192-7A6D-CC17-48C9-0C0A62A64211" name="relation_16_pk">
+<ind_PK_UK id="6FD16192-7A6D-CC17-48C9-0C0A62A64211" name="Activo-CategoriaActivo_PK">
 <sourceDDLFile>diagrama.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
@@ -86,7 +87,7 @@
 <colUsage columnID="3C97F993-DF67-DD3E-73AB-6046D1191490"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0F7A725B-2068-06D7-4AD2-136629C48356" name="relation_16_activos_fk">
+<ind_PK_UK id="0F7A725B-2068-06D7-4AD2-136629C48356" name="Activo-CategoriaActivo_Activo_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
@@ -97,7 +98,7 @@
 <colUsage columnID="08688FFA-DBBE-0DE5-DA72-1BF406F8B4AB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4F5CD3EE-AB30-5FC5-E377-9B13F56B2EAE" name="relation_16_cat_act_fk">
+<ind_PK_UK id="4F5CD3EE-AB30-5FC5-E377-9B13F56B2EAE" name="Activo-CategoriaActivo_CategoriaActivo_FK">
 <createdBy>Usuario</createdBy>
 <createdTime>2025-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>ER_v3</ownerDesignName>
